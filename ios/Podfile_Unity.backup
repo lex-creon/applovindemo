@@ -1,0 +1,19 @@
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '12.4'
+
+target 'UnityFramework' do
+  pod 'AppLovinMediationByteDanceAdapter', '5.5.0.5.0'
+  pod 'AppLovinMediationGoogleAdapter', '10.10.0.0'
+  pod 'AppLovinMediationInMobiAdapter', '10.5.8.1'
+  pod 'AppLovinMediationIronSourceAdapter', '7.5.0.0.0'
+  pod 'AppLovinMediationMintegralAdapter', '7.4.4.0.0'
+  pod 'AppLovinMediationMyTargetAdapter', '5.19.0.0'
+  pod 'AppLovinMediationSmaatoAdapter', '22.3.0.0'
+  pod 'AppLovinMediationUnityAdsAdapter', '4.8.0.1'
+  pod 'AppLovinMediationVungleAdapter', '7.1.0.0'
+  pod 'AppLovinSDK', '11.11.3'
+end
+target 'Unity-iPhone' do
+end
+use_frameworks! :linkage => :static
