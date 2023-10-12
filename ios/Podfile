@@ -14,4 +14,3 @@ target 'UnityFramework' do
   pod 'AppLovinMediationVungleAdapter', '7.1.0.0'
   pod 'AppLovinSDK', '11.11.3'
 end
-use_frameworks!

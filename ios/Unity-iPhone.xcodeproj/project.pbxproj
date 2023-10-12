@@ -24,6 +24,7 @@
 		109040D1BA889AEC2ADBD086 /* LUCVar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF40FA8E10EAC589F33D8F /* LUCVar.m */; };
 		1118EC37D8E79CCAA395A5B8 /* AdjustSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4455911190B401E2B758C564 /* AdjustSdk.a */; };
 		139665BA6507E8DA301E6840 /* ADJSessionSuccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 8736A52B1E17FB4A1F79D6FC /* ADJSessionSuccess.h */; };
+		139A4F02CA0D8F98878FDBE7 /* libPods-UnityFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91880AA6196013A4896E89C5 /* libPods-UnityFramework.a */; };
 		14C245A99D48DB989AA5EC73 /* LUConsoleResizeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED649018E835C4CC6BA4AC6 /* LUConsoleResizeController.m */; };
 		14F4497B88787033D0608274 /* lunar_console_icon_button_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B094423B321874610CC78D2 /* lunar_console_icon_button_clear.png */; };
 		170A479B8EE0697EADCB47C8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C801E7F3CBAB00070AC52BC6 /* StoreKit.framework */; };
@@ -70,7 +71,7 @@
 		4F5447F0873C7A7903E5E846 /* lunar_console_icon_button_console@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3C4C839FA4CB290766043C /* lunar_console_icon_button_console@3x.png */; };
 		5623C57617FDCB0800090B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		5623C57717FDCB0800090B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
-		5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
+		5623C57D17FDCB0900090B9E = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
 		5623C57F17FDCB0900090B9E /* Unity_iPhone_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */; };
 		56C56C9817D6015200616839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C56C9717D6015100616839 /* Images.xcassets */; };
 		574A8D1BFDF4103B13A6538A /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21ECD27EDF8EB21168769097 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -108,7 +109,6 @@
 		80214762B1FB874FA50E2DC1 /* lunar_console_icon_button_unlock@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FD343C3BBAB4DC7EBDE781D /* lunar_console_icon_button_unlock@3x.png */; };
 		826E40C67FAA509B29A0EFA3 /* IUnityGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 30347B5D7991A325732A4F10 /* IUnityGraphics.h */; };
 		84F6462AB454AA72207FB736 /* LUEnumPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ABF4B17AEFF15FBBAD3DD07 /* LUEnumPickerViewController.xib */; };
-		86126B3DC6EB7AF0C053F86C /* Pods_UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258F1C306FF891DC1513A9EC /* Pods_UnityFramework.framework */; };
 		862C245020AEC7AC006FB4AD /* UnityWebRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 862C244F20AEC7AC006FB4AD /* UnityWebRequest.mm */; };
 		864A4EDCBFAB702FFDCA166B /* lunar_console_log_button_background.png in Resources */ = {isa = PBXBuildFile; fileRef = B78B454A9FCD8411C74D4D9E /* lunar_console_log_button_background.png */; };
 		891D4BA2A0F8E0FABAD11AAA /* LUConsoleLogEntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 640D4E3B94024F5740BC2CA3 /* LUConsoleLogEntryTableViewCell.m */; };
@@ -396,7 +396,6 @@
 		2479439FAEB0099AB1925F36 /* GenericMethods__8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__8.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__8.cpp; sourceTree = SOURCE_ROOT; };
 		252248D38ACCE7F29C1AD9A9 /* LUExceptionWarningController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LUExceptionWarningController.xib; path = ../Assets/LunarConsole/Editor/iOS/Common/Controllers/Warning/LUExceptionWarningController.xib; sourceTree = SOURCE_ROOT; };
 		25711C69564281E1F27185F1 /* Mono.Security.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Mono.Security.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Mono.Security.cpp; sourceTree = SOURCE_ROOT; };
-		258F1C306FF891DC1513A9EC /* Pods_UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26064A28A3A9C82128105536 /* LUStacktrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LUStacktrace.m; path = ../Assets/LunarConsole/Editor/iOS/Common/Utils/LUStacktrace.m; sourceTree = SOURCE_ROOT; };
 		267B83E326B68B3AF4BFD444 /* Pods-UnityFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnityFramework.release.xcconfig"; path = "Target Support Files/Pods-UnityFramework/Pods-UnityFramework.release.xcconfig"; sourceTree = "<group>"; };
 		26CA78F1FFFB56AD4EBA84D6 /* Generics__15.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__15.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__15.cpp; sourceTree = SOURCE_ROOT; };
@@ -730,6 +729,7 @@
 		90524ABDA7934AB3D2E30DFA /* LUTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LUTheme.h; path = ../Assets/LunarConsole/Editor/iOS/Common/UI/LUTheme.h; sourceTree = SOURCE_ROOT; };
 		90E69A22DD43A16E030D8110 /* UnityEngine.UnityAnalyticsCommonModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.UnityAnalyticsCommonModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.UnityAnalyticsCommonModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
 		9144340CC541DD77AADA21F3 /* System__2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = System__2.cpp; path = Il2CppOutputProject/Source/il2cppOutput/System__2.cpp; sourceTree = SOURCE_ROOT; };
+		91880AA6196013A4896E89C5 /* libPods-UnityFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnityFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E17166D3BDB3EA24239E77 /* mscorlib__20.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mscorlib__20.cpp; path = Il2CppOutputProject/Source/il2cppOutput/mscorlib__20.cpp; sourceTree = SOURCE_ROOT; };
 		92FF4DD9B84A6DB3C33F33E7 /* LUSerializationUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LUSerializationUtils.m; path = ../Assets/LunarConsole/Editor/iOS/Common/Utils/LUSerializationUtils.m; sourceTree = SOURCE_ROOT; };
 		93D58FF844D1DB10DA5B8635 /* ADJLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ADJLogger.h; path = Libraries/Adjust/iOS/ADJLogger.h; sourceTree = SOURCE_ROOT; };
@@ -1028,7 +1028,7 @@
 				A9894BCE90FB6EE42F2C6A98 /* AdServices.framework in Frameworks */,
 				2E554F66AC37524B37F447E1 /* CoreTelephony.framework in Frameworks */,
 				B3404897AD0F79AC56F63BC0 /* MessageUI.framework in Frameworks */,
-				86126B3DC6EB7AF0C053F86C /* Pods_UnityFramework.framework in Frameworks */,
+				139A4F02CA0D8F98878FDBE7 /* libPods-UnityFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1123,6 +1123,7 @@
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				21ECD27EDF8EB21168769097 /* GameController.framework */,
 				960391211D6CE46E003BF157 /* MediaToolbox.framework */,
+				D43A48678A377737FAC30FB5 /* MessageUI.framework */,
 				8A3831B4246956AA00CD74FD /* Metal.framework */,
 				83B2574B0E63022200468741 /* OpenAL.framework */,
 				83B2570A0E62FF8A00468741 /* QuartzCore.framework */,
@@ -1132,8 +1133,7 @@
 				830B5C100E5ED4C100C7819F /* UIKit.framework */,
 				E7684CEF8F5D02A5CDDF96FD /* iAd.framework */,
 				9D0A618A21BFE7F30094DC33 /* libiconv.2.tbd */,
-				D43A48678A377737FAC30FB5 /* MessageUI.framework */,
-				258F1C306FF891DC1513A9EC /* Pods_UnityFramework.framework */,
+				91880AA6196013A4896E89C5 /* libPods-UnityFramework.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1634,186 +1634,186 @@
 		9CA347179E56C437AC266C5B /* Lunar Console */ = {
 			isa = PBXGroup;
 			children = (
-				9BEF40FA8E10EAC589F33D8F /* LUCVar.m */,
-				AC144E359C4AB07906B2588C /* LUActionController.m */,
-				83E74201987E2E5D8504703E /* LUActionRegistry.m */,
-				5F904F05817AD6284E2C43BA /* LUConsolePluginImp.m */,
-				F3AA4CAC88F47073A2287C55 /* LUPassTouchView.h */,
-				341A4F20A46310003685049A /* LUViewController.m */,
-				BF6D4CBE873B6F2C2298649F /* LUButton.m */,
-				C20142E0B82D02B8C2782DF1 /* LUSlider.m */,
-				976045ECABA70DBF7B704192 /* LUTableView.m */,
-				CD9D4DD294C359B663AA95BB /* LUUIHelper.m */,
-				77814465B3873C3A4FEAB372 /* LUToggleButton.m */,
-				D03F4F269EAC061F4B94D35D /* LUWindow.h */,
-				310645F89A109A17624CCA3A /* LUPanViewGestureRecognizer.m */,
-				462E4B65B046B8D53AA3C10A /* LUTextField.h */,
-				4975449684E8E90293C155FD /* LUActionButton.m */,
-				31C54175AC19968C929421F3 /* LUSwitch.m */,
-				567F4E29BE9104D9A7F92FCA /* LUTheme.m */,
-				D98B485898E891D3B8A10FDD /* LUButton.h */,
-				7FF449618268CC094EFEE9E4 /* LUViewController.h */,
-				E71541CD9A2C006F9EC6B129 /* LUPassTouchView.m */,
-				027F41AE84FA15C1D907289A /* LUToggleButton.h */,
-				55A44976A9EDFD21D9B97C95 /* LUTableView.h */,
-				3AD14CFB8522AF012730A51A /* LUUIHelper.h */,
-				692142CD84C5E2BAD98A3764 /* LUSlider.h */,
-				4DE648B5AF4B86D172813D42 /* LUPanViewGestureRecognizer.h */,
-				715D4FB680EC66B504C7C96D /* LUWindow.m */,
-				90524ABDA7934AB3D2E30DFA /* LUTheme.h */,
-				D76344ABABD6C28A6074A918 /* LUSwitch.h */,
 				E5AC4A9C8AF750081F51F578 /* LUActionButton.h */,
-				1FF6447D9A9316D838A040E2 /* LUTextField.m */,
-				DD5D4480A01055F36AA12428 /* lunar_console_resize_handle_vertical.png */,
-				3CA640B7B1B8A14C9EF699CF /* lunar_console_collapse_background@3x.png */,
-				D9B94FB79D579C299CF8300A /* lunar_console_icon_log_warning.png */,
-				F9A24945B38FD57A0140FA5F /* lunar_console_icon_button_lock.png */,
-				4CF642B5942FAF8B32F63489 /* lunar_console_icon_button_close.png */,
-				AC98415D88C90DF0583B3AE0 /* lunar_console_icon_button_unlock.png */,
-				1B3F4B9FBACA8CFFE0C79AC4 /* lunar_console_icon_settings.png */,
-				FE3F40F5917DA43DB244B190 /* lunar_console_collapse_background@2x.png */,
-				AEDE44A5BCD4D4B602C72BFE /* lunar_console_resize_handle_horizontal@3x.png */,
-				A3724DA6A42623933CC33ACA /* lunar_console_icon_button_lock@2x.png */,
-				0D864D358E64291789AD2C30 /* lunar_console_icon_log_error@2x.png */,
-				122542BCA6602AC9953B4CAD /* lunar_console_actions_empty_warning@2x.png */,
-				3A5749B8A42D145E411480C9 /* lunar_console_icon_button_unlock@2x.png */,
-				6FD343C3BBAB4DC7EBDE781D /* lunar_console_icon_button_unlock@3x.png */,
-				8B904415A5BEF5BF001A911B /* lunar_console_icon_button_settings.png */,
-				8413444C8A8FF2003038FD71 /* lunar_console_actions_empty_warning@3x.png */,
-				1EB3483D9B89DBF89F1EA26F /* lunar_console_icon_log_error@3x.png */,
-				69ED4C67B11BD1CDFFFFE268 /* lunar_console_icon_button_lock@3x.png */,
-				1A7F4E359BD3E2F7C06EB431 /* lunar_console_resize_handle_horizontal@2x.png */,
-				546242989A62E5125E9159F1 /* lunar_console_icon_log_warning@2x.png */,
-				55234CB2947F69BA197FCE2C /* lunar_console_icon_button_settings@2x.png */,
-				613D480B895B49AA097E30A3 /* lunar_console_icon_button_email@3x.png */,
-				3EFF4CB4B3CDD2A7CBC94A37 /* lunar_console_resize_handle_horizontal.png */,
-				C8654A0D9AF8DB784CAE0222 /* lunar_console_icon_button_clear@2x.png */,
-				5F9743C48369CDE918031821 /* lunar_console_icon_log_error.png */,
-				50984E6CB007CAE63BACD26E /* lunar_console_log_button_background@3x.png */,
-				4F5A4B54B638CA55676A3114 /* lunar_console_icon_log@3x.png */,
-				B78B454A9FCD8411C74D4D9E /* lunar_console_log_button_background.png */,
-				47134DBE82FF5ED2068FAE6E /* lunar_console_icon_button_close@3x.png */,
-				E6C84DCF9C719A541A366280 /* lunar_console_icon_settings@2x.png */,
-				901A43EEB71A3EF6206F16C5 /* lunar_console_resize_handle_vertical@3x.png */,
-				6B094423B321874610CC78D2 /* lunar_console_icon_button_clear.png */,
-				09764272B83085E4F75A2DE9 /* lunar_console_resize_handle_vertical@2x.png */,
-				5CEB4414AB6B179EB6159F76 /* lunar_console_icon_settings@3x.png */,
-				B10D49D4AED7FDC0A9E033A9 /* lunar_console_icon_button_close@2x.png */,
-				3E20408FA103B627EF97B737 /* lunar_console_icon_log.png */,
-				0F784494927468826B6A701B /* lunar_console_collapse_background.png */,
-				7A394427AB4FD450A4E6404B /* lunar_console_icon_log@2x.png */,
-				6E9C4BF79E44015331120E40 /* lunar_console_log_button_background@2x.png */,
-				43094D67807293937EF40B12 /* lunar_console_icon_button_clear@3x.png */,
-				40B44E91977E3A02C2717A86 /* lunar_console_icon_button_email@2x.png */,
-				A648414A954D50AC147EA43A /* lunar_console_icon_button_help.png */,
-				B7714F6FB328938511A832AF /* lunar_console_icon_button_settings@3x.png */,
-				65854C4099F02D98242C8F6B /* lunar_console_icon_log_warning@3x.png */,
-				B2AA4E5D8862F29558A7C7A6 /* lunar_console_icon_button_console@2x.png */,
-				DFAD4CBE8F4E7B311BA61525 /* lunar_console_icon_button_clipboard@2x.png */,
-				364A497F86DA4EF50E69657A /* lunar_console_icon_button_more@3x.png */,
-				E83F400F91577FEFEB354147 /* lunar_console_icon_button_clipboard.png */,
-				B0534EB5A45D9EAB3B8441D0 /* lunar_console_icon_button_console.png */,
-				A43E43588D400CB6D456F60B /* lunar_console_actions_empty_warning.png */,
-				C24842EBB9C4909596F656C9 /* lunar_console_icon_button_help@3x.png */,
-				76DA429B95BCB3363AD7225B /* lunar_console_icon_button_help@2x.png */,
-				A464447198821BB8BC596810 /* lunar_console_icon_button_email.png */,
-				D9F54CC9A41632789C401CEB /* lunar_console_icon_button_more@2x.png */,
-				76CF4CCEBBF986868E098A21 /* lunar_console_icon_button_clipboard@3x.png */,
-				7E3C4C839FA4CB290766043C /* lunar_console_icon_button_console@3x.png */,
-				F85C4980A61DC3CF9FAC8015 /* lunar_console_icon_button_more.png */,
-				92FF4DD9B84A6DB3C33F33E7 /* LUSerializationUtils.m */,
-				5F2D41A9A880B023EC352A69 /* LUThreading.m */,
-				74D44889A336AA818BAF774E /* LUImageUtils.m */,
-				D38A445BBF255387FE391A91 /* LUObject.m */,
-				827945A798B6EF4B19B8D0B2 /* LUSerializableObject.h */,
-				874D441885CF941299C7011D /* LUNotificationCenter.h */,
-				5E8B46D4B218DBF54C87E71D /* LUDefines.h */,
-				0AA64D7C983EADF74CA815F4 /* LUStacktrace.h */,
-				A2A346C389F9AE030B4F0C06 /* LUSortedList.h */,
-				D5E44678A1A0A134715C994D /* LUStringUtils.m */,
-				65604D4BA2A105BD88C9D842 /* LUAssert.m */,
-				1DE548EB85872AD2A21CC0BD /* LUAvailability.m */,
-				30514605AA83B46CF8D815DE /* LUFileUtils.m */,
-				B53946EA937DBEFAC20F1C8C /* LUMutableArray.m */,
-				9470476188BBFD28934ABD22 /* LULittleHelper.h */,
-				61D246B39CE0C2DDD708E6A4 /* LUNotificationCenter.m */,
-				584741A9827F784971650CEF /* LUSerializableObject.m */,
-				EE4A4EE5BB59CBA5BEF20281 /* LUObject.h */,
-				575C4600938EB9A18402F2B7 /* LUImageUtils.h */,
-				3EE24C6988902743B9A2CADB /* LUThreading.h */,
-				5B5F4D86852D629D35947F58 /* LUSerializationUtils.h */,
-				3D7B4575A45419BE3AA1CA97 /* LUSortedList.m */,
-				26064A28A3A9C82128105536 /* LUStacktrace.m */,
-				A8B64AA1B30771AADB273200 /* LUAvailability.h */,
-				648D4A78A8874E6A85595374 /* LUAssert.h */,
-				5FB44DF897A6ED6FE3499399 /* LUStringUtils.h */,
-				CCBA4981BD972F9F5E91417E /* LUUtils.h */,
-				98024209A6AF2973E96232D1 /* LUMutableArray.h */,
-				735348DE93BFD21486768527 /* LULittleHelper.m */,
-				20F14BAA8EE315E7CEC6FA59 /* LUFileUtils.h */,
-				119345F194122EF80703C6E9 /* Lunar.h */,
-				3DD542D8BCBE973EF4CF37AA /* LUEnumPickerViewController.m */,
-				BCA048D6BA4CFBAE43484FCD /* LUEnumPickerViewController.h */,
-				9ABF4B17AEFF15FBBAD3DD07 /* LUEnumPickerViewController.xib */,
-				7A7D487BB7C69B80C8ABD815 /* LUConsoleSettingsController.m */,
-				71ED4BDFA2E1FC54DBF5A6D6 /* LUSettingsTableCell.xib */,
-				E19A43009588494746965302 /* LUConsoleSettingsController.h */,
-				CBE847AD8C1045CA5854CCD9 /* LUConsoleSettingsController.xib */,
-				B91840C79EC953886AF1BF79 /* LUConsolePopupController.h */,
-				E1C04CC9B0510F7C607E82E1 /* LUConsolePopupController.xib */,
-				9C7446459ACA86E851FB80BF /* LUConsolePopupController.m */,
-				36B5480EB42BC74D559CE8AE /* LUExceptionWarningController.m */,
-				252248D38ACCE7F29C1AD9A9 /* LUExceptionWarningController.xib */,
-				0A774FD09E4247082A9E1F0E /* LUExceptionWarningController.h */,
-				894D4DE190BD6768A392FBB3 /* LUCVar.h */,
+				4975449684E8E90293C155FD /* LUActionButton.m */,
+				F2AF43D7AA05A3D98E1076D4 /* LUActionController.h */,
+				AC144E359C4AB07906B2588C /* LUActionController.m */,
+				C1694BE0A37E5413DC942269 /* LUActionController.xib */,
+				8D6143739A2BBB7177ABB7FE /* LUActionControllerBase.h */,
 				E08B416E991B5B6D798828A8 /* LUActionControllerBase.m */,
 				50B0413785EA8A0C06097686 /* LUActionControllerBase_Inheritance.h */,
 				E1F94D7DBCE53A5AC3D30CC2 /* LUActionRegistry.h */,
-				C1694BE0A37E5413DC942269 /* LUActionController.xib */,
-				8D6143739A2BBB7177ABB7FE /* LUActionControllerBase.h */,
-				F2AF43D7AA05A3D98E1076D4 /* LUActionController.h */,
+				83E74201987E2E5D8504703E /* LUActionRegistry.m */,
+				648D4A78A8874E6A85595374 /* LUAssert.h */,
+				65604D4BA2A105BD88C9D842 /* LUAssert.m */,
+				A8B64AA1B30771AADB273200 /* LUAvailability.h */,
+				1DE548EB85872AD2A21CC0BD /* LUAvailability.m */,
+				D98B485898E891D3B8A10FDD /* LUButton.h */,
+				BF6D4CBE873B6F2C2298649F /* LUButton.m */,
+				894D4DE190BD6768A392FBB3 /* LUCVar.h */,
+				9BEF40FA8E10EAC589F33D8F /* LUCVar.m */,
+				E0494CDD905CBF431268D201 /* LUConsole.h */,
+				68964E52AC48A4A085E799B9 /* LUConsole.m */,
+				8E314560B66F53F2C19EBAD0 /* LUConsoleController.h */,
+				6B9D4B909BC9A7F8A97927F2 /* LUConsoleController.m */,
+				5D074B20A0F693A5146179A3 /* LUConsoleController.xib */,
+				FE234838B370C4F0BF65F0FF /* LUConsoleLogController.h */,
+				31CD471BAF2D199D6F55A523 /* LUConsoleLogController.m */,
+				04B2486693D56BF19C4A340E /* LUConsoleLogController.xib */,
+				FECE4066A3E95DFF9075DA18 /* LUConsoleLogDetailsController.h */,
+				9BB04D6E831BD35FE81E4EF0 /* LUConsoleLogDetailsController.m */,
+				79D742D1833A284C440646BB /* LUConsoleLogDetailsController.xib */,
+				0D024A4C8A0D6F83EE912F27 /* LUConsoleLogEntry.h */,
+				5E88438CA7BB49AFC2A49E8E /* LUConsoleLogEntry.m */,
+				6ADD4DFEA2A1D8B978D8901D /* LUConsoleLogEntryList.h */,
+				37874D23AC6436FB2A2A0F87 /* LUConsoleLogEntryList.m */,
+				100145A48E7ADAFFAD9F5A00 /* LUConsoleLogEntryLookupTable.h */,
+				E4DC4BC397810EFBCEBF91C0 /* LUConsoleLogEntryLookupTable.m */,
+				C1CE42248B8AD2BBFDD947EC /* LUConsoleLogEntryTableViewCell.h */,
+				640D4E3B94024F5740BC2CA3 /* LUConsoleLogEntryTableViewCell.m */,
+				8BD849359E09A0706B1B914C /* LUConsoleLogMenuController.h */,
+				20D146E989C08647C29B0473 /* LUConsoleLogMenuController.m */,
+				E34D435E87FB6FE2639120C6 /* LUConsoleLogMenuController.xib */,
+				C51E41429E0EDB4574CA379A /* LUConsoleLogTypeButton.h */,
+				619F4AA48472EA37DB0D6D1E /* LUConsoleLogTypeButton.m */,
+				E5D34454B2F560A85B478754 /* LUConsolePlugin.h */,
+				7C574454B154D427C5F98AF9 /* LUConsolePlugin.m */,
+				AE7C484B82078B8062E3FCE9 /* LUConsolePluginImp.h */,
+				5F904F05817AD6284E2C43BA /* LUConsolePluginImp.m */,
+				B91840C79EC953886AF1BF79 /* LUConsolePopupController.h */,
+				9C7446459ACA86E851FB80BF /* LUConsolePopupController.m */,
+				E1C04CC9B0510F7C607E82E1 /* LUConsolePopupController.xib */,
+				8F42420BB700DC042EB9DFE1 /* LUConsoleResizeController.h */,
 				7ED649018E835C4CC6BA4AC6 /* LUConsoleResizeController.m */,
 				60FE499AAF4F05C0946CCFF8 /* LUConsoleResizeController.xib */,
-				8F42420BB700DC042EB9DFE1 /* LUConsoleResizeController.h */,
+				E19A43009588494746965302 /* LUConsoleSettingsController.h */,
+				7A7D487BB7C69B80C8ABD815 /* LUConsoleSettingsController.m */,
+				CBE847AD8C1045CA5854CCD9 /* LUConsoleSettingsController.xib */,
+				5E8B46D4B218DBF54C87E71D /* LUDefines.h */,
+				12C24F12889742D7FE5F8B43 /* LUEntry.h */,
 				DAC5455D8370CDDEBEFCE9DA /* LUEntry.m */,
 				684B4E7F8AF881D13F326B91 /* LUEntryTableViewCell.h */,
-				12C24F12889742D7FE5F8B43 /* LUEntry.h */,
 				C8CD46B795D9A4DF4A818DDB /* LUEntryTableViewCell.m */,
-				E0494CDD905CBF431268D201 /* LUConsole.h */,
-				6B9D4B909BC9A7F8A97927F2 /* LUConsoleController.m */,
-				58494456A09F525F3360574B /* LUPluginSettings.h */,
-				AE7C484B82078B8062E3FCE9 /* LUConsolePluginImp.h */,
-				7C574454B154D427C5F98AF9 /* LUConsolePlugin.m */,
-				69354983A7B3B921CFCB5439 /* LUUnityScriptMessenger.h */,
-				A95040D2BBB2EC0A76109128 /* lunar_unity_native_interface.m */,
-				7B1E49D7AB404D86F991684F /* LUPluginSettings.m */,
-				E5D34454B2F560A85B478754 /* LUConsolePlugin.h */,
-				E06840ED8742C44DAD18CBC4 /* LUUnityScriptMessenger.m */,
-				63A24CBDA9AC563944C8C628 /* lunar_unity_native_interface.h */,
-				5D074B20A0F693A5146179A3 /* LUConsoleController.xib */,
-				5E88438CA7BB49AFC2A49E8E /* LUConsoleLogEntry.m */,
-				31CD471BAF2D199D6F55A523 /* LUConsoleLogController.m */,
-				8BD849359E09A0706B1B914C /* LUConsoleLogMenuController.h */,
-				C1CE42248B8AD2BBFDD947EC /* LUConsoleLogEntryTableViewCell.h */,
-				FECE4066A3E95DFF9075DA18 /* LUConsoleLogDetailsController.h */,
-				E34D435E87FB6FE2639120C6 /* LUConsoleLogMenuController.xib */,
-				619F4AA48472EA37DB0D6D1E /* LUConsoleLogTypeButton.m */,
-				E4DC4BC397810EFBCEBF91C0 /* LUConsoleLogEntryLookupTable.m */,
-				37874D23AC6436FB2A2A0F87 /* LUConsoleLogEntryList.m */,
-				4B38483BB9D9CBFB4D2E911E /* LULogMessage.m */,
-				79D742D1833A284C440646BB /* LUConsoleLogDetailsController.xib */,
-				04B2486693D56BF19C4A340E /* LUConsoleLogController.xib */,
-				20D146E989C08647C29B0473 /* LUConsoleLogMenuController.m */,
-				FE234838B370C4F0BF65F0FF /* LUConsoleLogController.h */,
-				0D024A4C8A0D6F83EE912F27 /* LUConsoleLogEntry.h */,
-				100145A48E7ADAFFAD9F5A00 /* LUConsoleLogEntryLookupTable.h */,
-				C51E41429E0EDB4574CA379A /* LUConsoleLogTypeButton.h */,
-				9BB04D6E831BD35FE81E4EF0 /* LUConsoleLogDetailsController.m */,
-				640D4E3B94024F5740BC2CA3 /* LUConsoleLogEntryTableViewCell.m */,
+				BCA048D6BA4CFBAE43484FCD /* LUEnumPickerViewController.h */,
+				3DD542D8BCBE973EF4CF37AA /* LUEnumPickerViewController.m */,
+				9ABF4B17AEFF15FBBAD3DD07 /* LUEnumPickerViewController.xib */,
+				0A774FD09E4247082A9E1F0E /* LUExceptionWarningController.h */,
+				36B5480EB42BC74D559CE8AE /* LUExceptionWarningController.m */,
+				252248D38ACCE7F29C1AD9A9 /* LUExceptionWarningController.xib */,
+				20F14BAA8EE315E7CEC6FA59 /* LUFileUtils.h */,
+				30514605AA83B46CF8D815DE /* LUFileUtils.m */,
+				575C4600938EB9A18402F2B7 /* LUImageUtils.h */,
+				74D44889A336AA818BAF774E /* LUImageUtils.m */,
+				9470476188BBFD28934ABD22 /* LULittleHelper.h */,
+				735348DE93BFD21486768527 /* LULittleHelper.m */,
 				67AD4324B479A1D3EF55984F /* LULogMessage.h */,
-				6ADD4DFEA2A1D8B978D8901D /* LUConsoleLogEntryList.h */,
-				8E314560B66F53F2C19EBAD0 /* LUConsoleController.h */,
-				68964E52AC48A4A085E799B9 /* LUConsole.m */,
+				4B38483BB9D9CBFB4D2E911E /* LULogMessage.m */,
+				98024209A6AF2973E96232D1 /* LUMutableArray.h */,
+				B53946EA937DBEFAC20F1C8C /* LUMutableArray.m */,
+				874D441885CF941299C7011D /* LUNotificationCenter.h */,
+				61D246B39CE0C2DDD708E6A4 /* LUNotificationCenter.m */,
+				EE4A4EE5BB59CBA5BEF20281 /* LUObject.h */,
+				D38A445BBF255387FE391A91 /* LUObject.m */,
+				4DE648B5AF4B86D172813D42 /* LUPanViewGestureRecognizer.h */,
+				310645F89A109A17624CCA3A /* LUPanViewGestureRecognizer.m */,
+				F3AA4CAC88F47073A2287C55 /* LUPassTouchView.h */,
+				E71541CD9A2C006F9EC6B129 /* LUPassTouchView.m */,
+				58494456A09F525F3360574B /* LUPluginSettings.h */,
+				7B1E49D7AB404D86F991684F /* LUPluginSettings.m */,
+				827945A798B6EF4B19B8D0B2 /* LUSerializableObject.h */,
+				584741A9827F784971650CEF /* LUSerializableObject.m */,
+				5B5F4D86852D629D35947F58 /* LUSerializationUtils.h */,
+				92FF4DD9B84A6DB3C33F33E7 /* LUSerializationUtils.m */,
+				71ED4BDFA2E1FC54DBF5A6D6 /* LUSettingsTableCell.xib */,
+				692142CD84C5E2BAD98A3764 /* LUSlider.h */,
+				C20142E0B82D02B8C2782DF1 /* LUSlider.m */,
+				A2A346C389F9AE030B4F0C06 /* LUSortedList.h */,
+				3D7B4575A45419BE3AA1CA97 /* LUSortedList.m */,
+				0AA64D7C983EADF74CA815F4 /* LUStacktrace.h */,
+				26064A28A3A9C82128105536 /* LUStacktrace.m */,
+				5FB44DF897A6ED6FE3499399 /* LUStringUtils.h */,
+				D5E44678A1A0A134715C994D /* LUStringUtils.m */,
+				D76344ABABD6C28A6074A918 /* LUSwitch.h */,
+				31C54175AC19968C929421F3 /* LUSwitch.m */,
+				55A44976A9EDFD21D9B97C95 /* LUTableView.h */,
+				976045ECABA70DBF7B704192 /* LUTableView.m */,
+				462E4B65B046B8D53AA3C10A /* LUTextField.h */,
+				1FF6447D9A9316D838A040E2 /* LUTextField.m */,
+				90524ABDA7934AB3D2E30DFA /* LUTheme.h */,
+				567F4E29BE9104D9A7F92FCA /* LUTheme.m */,
+				3EE24C6988902743B9A2CADB /* LUThreading.h */,
+				5F2D41A9A880B023EC352A69 /* LUThreading.m */,
+				027F41AE84FA15C1D907289A /* LUToggleButton.h */,
+				77814465B3873C3A4FEAB372 /* LUToggleButton.m */,
+				3AD14CFB8522AF012730A51A /* LUUIHelper.h */,
+				CD9D4DD294C359B663AA95BB /* LUUIHelper.m */,
+				69354983A7B3B921CFCB5439 /* LUUnityScriptMessenger.h */,
+				E06840ED8742C44DAD18CBC4 /* LUUnityScriptMessenger.m */,
+				CCBA4981BD972F9F5E91417E /* LUUtils.h */,
+				7FF449618268CC094EFEE9E4 /* LUViewController.h */,
+				341A4F20A46310003685049A /* LUViewController.m */,
+				D03F4F269EAC061F4B94D35D /* LUWindow.h */,
+				715D4FB680EC66B504C7C96D /* LUWindow.m */,
+				119345F194122EF80703C6E9 /* Lunar.h */,
+				A43E43588D400CB6D456F60B /* lunar_console_actions_empty_warning.png */,
+				122542BCA6602AC9953B4CAD /* lunar_console_actions_empty_warning@2x.png */,
+				8413444C8A8FF2003038FD71 /* lunar_console_actions_empty_warning@3x.png */,
+				0F784494927468826B6A701B /* lunar_console_collapse_background.png */,
+				FE3F40F5917DA43DB244B190 /* lunar_console_collapse_background@2x.png */,
+				3CA640B7B1B8A14C9EF699CF /* lunar_console_collapse_background@3x.png */,
+				6B094423B321874610CC78D2 /* lunar_console_icon_button_clear.png */,
+				C8654A0D9AF8DB784CAE0222 /* lunar_console_icon_button_clear@2x.png */,
+				43094D67807293937EF40B12 /* lunar_console_icon_button_clear@3x.png */,
+				E83F400F91577FEFEB354147 /* lunar_console_icon_button_clipboard.png */,
+				DFAD4CBE8F4E7B311BA61525 /* lunar_console_icon_button_clipboard@2x.png */,
+				76CF4CCEBBF986868E098A21 /* lunar_console_icon_button_clipboard@3x.png */,
+				4CF642B5942FAF8B32F63489 /* lunar_console_icon_button_close.png */,
+				B10D49D4AED7FDC0A9E033A9 /* lunar_console_icon_button_close@2x.png */,
+				47134DBE82FF5ED2068FAE6E /* lunar_console_icon_button_close@3x.png */,
+				B0534EB5A45D9EAB3B8441D0 /* lunar_console_icon_button_console.png */,
+				B2AA4E5D8862F29558A7C7A6 /* lunar_console_icon_button_console@2x.png */,
+				7E3C4C839FA4CB290766043C /* lunar_console_icon_button_console@3x.png */,
+				A464447198821BB8BC596810 /* lunar_console_icon_button_email.png */,
+				40B44E91977E3A02C2717A86 /* lunar_console_icon_button_email@2x.png */,
+				613D480B895B49AA097E30A3 /* lunar_console_icon_button_email@3x.png */,
+				A648414A954D50AC147EA43A /* lunar_console_icon_button_help.png */,
+				76DA429B95BCB3363AD7225B /* lunar_console_icon_button_help@2x.png */,
+				C24842EBB9C4909596F656C9 /* lunar_console_icon_button_help@3x.png */,
+				F9A24945B38FD57A0140FA5F /* lunar_console_icon_button_lock.png */,
+				A3724DA6A42623933CC33ACA /* lunar_console_icon_button_lock@2x.png */,
+				69ED4C67B11BD1CDFFFFE268 /* lunar_console_icon_button_lock@3x.png */,
+				F85C4980A61DC3CF9FAC8015 /* lunar_console_icon_button_more.png */,
+				D9F54CC9A41632789C401CEB /* lunar_console_icon_button_more@2x.png */,
+				364A497F86DA4EF50E69657A /* lunar_console_icon_button_more@3x.png */,
+				8B904415A5BEF5BF001A911B /* lunar_console_icon_button_settings.png */,
+				55234CB2947F69BA197FCE2C /* lunar_console_icon_button_settings@2x.png */,
+				B7714F6FB328938511A832AF /* lunar_console_icon_button_settings@3x.png */,
+				AC98415D88C90DF0583B3AE0 /* lunar_console_icon_button_unlock.png */,
+				3A5749B8A42D145E411480C9 /* lunar_console_icon_button_unlock@2x.png */,
+				6FD343C3BBAB4DC7EBDE781D /* lunar_console_icon_button_unlock@3x.png */,
+				3E20408FA103B627EF97B737 /* lunar_console_icon_log.png */,
+				7A394427AB4FD450A4E6404B /* lunar_console_icon_log@2x.png */,
+				4F5A4B54B638CA55676A3114 /* lunar_console_icon_log@3x.png */,
+				5F9743C48369CDE918031821 /* lunar_console_icon_log_error.png */,
+				0D864D358E64291789AD2C30 /* lunar_console_icon_log_error@2x.png */,
+				1EB3483D9B89DBF89F1EA26F /* lunar_console_icon_log_error@3x.png */,
+				D9B94FB79D579C299CF8300A /* lunar_console_icon_log_warning.png */,
+				546242989A62E5125E9159F1 /* lunar_console_icon_log_warning@2x.png */,
+				65854C4099F02D98242C8F6B /* lunar_console_icon_log_warning@3x.png */,
+				1B3F4B9FBACA8CFFE0C79AC4 /* lunar_console_icon_settings.png */,
+				E6C84DCF9C719A541A366280 /* lunar_console_icon_settings@2x.png */,
+				5CEB4414AB6B179EB6159F76 /* lunar_console_icon_settings@3x.png */,
+				B78B454A9FCD8411C74D4D9E /* lunar_console_log_button_background.png */,
+				6E9C4BF79E44015331120E40 /* lunar_console_log_button_background@2x.png */,
+				50984E6CB007CAE63BACD26E /* lunar_console_log_button_background@3x.png */,
+				3EFF4CB4B3CDD2A7CBC94A37 /* lunar_console_resize_handle_horizontal.png */,
+				1A7F4E359BD3E2F7C06EB431 /* lunar_console_resize_handle_horizontal@2x.png */,
+				AEDE44A5BCD4D4B602C72BFE /* lunar_console_resize_handle_horizontal@3x.png */,
+				DD5D4480A01055F36AA12428 /* lunar_console_resize_handle_vertical.png */,
+				09764272B83085E4F75A2DE9 /* lunar_console_resize_handle_vertical@2x.png */,
+				901A43EEB71A3EF6206F16C5 /* lunar_console_resize_handle_vertical@3x.png */,
+				63A24CBDA9AC563944C8C628 /* lunar_unity_native_interface.h */,
+				A95040D2BBB2EC0A76109128 /* lunar_unity_native_interface.m */,
 			);
 			path = "Lunar Console";
 			sourceTree = "<group>";
@@ -1889,10 +1889,10 @@
 			isa = PBXGroup;
 			children = (
 				8DE248298B2617A8766D3C54 /* smaato-ios-sdk */,
+				C308F5832CC48320B0FD7970 /* Pods-UnityFramework.debug.xcconfig */,
 				267B83E326B68B3AF4BFD444 /* Pods-UnityFramework.release.xcconfig */,
 				83610B9316968983199D6525 /* Pods-UnityFramework.releaseforprofiling.xcconfig */,
 				59198EABDE402C22695E15DB /* Pods-UnityFramework.releaseforrunning.xcconfig */,
-				C308F5832CC48320B0FD7970 /* Pods-UnityFramework.debug.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1937,6 +1937,7 @@
 			isa = PBXGroup;
 			children = (
 				5AC71A8C837CA657F2B0BB66 /* Adjust */,
+				9CA347179E56C437AC266C5B /* Lunar Console */,
 				CA000E4A0AB553C71B30B96C /* MaxSdk */,
 				CC894E13A86A24839D6E00CF /* com.unity.purchasing */,
 				F021D34CCD890D3E0B21B1DA /* com.unity.services.analytics */,
@@ -1947,7 +1948,6 @@
 				7CD8D832DF5E49F3229DE515 /* baselib.a */,
 				D8A1C72A0E8063A1000160D3 /* libiPhone-lib.a */,
 				EE54DC7E56FA015DDC9659BD /* libil2cpp.a */,
-				9CA347179E56C437AC266C5B /* Lunar Console */,
 			);
 			path = Libraries;
 			sourceTree = SOURCE_ROOT;
@@ -2021,14 +2021,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Unity-iPhone" */;
 			buildPhases = (
-				665763AB8EA4AC57B3472BAA /* AppLovinQualityService Updater */,
+				665763AB8EA4AC57B3472BAA /* ShellScript */,
 				8F18A7EEECD4F0B2C4EB1E84 /* AppLovinQualityService Embed Framework */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				83D0C1FD0E6C8D7700EBCE5D /* CopyFiles */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				9D25ABAB213FB47800354C27 /* Embed Frameworks */,
-				5CA5A4E5CD666A54D07E956D /* AppLovinQualityService */,
+				5CA5A4E5CD666A54D07E956D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -2080,12 +2080,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D25ABA6213FB47800354C27 /* Build configuration list for PBXNativeTarget "UnityFramework" */;
 			buildPhases = (
-				39AA1F21BCBD24E8D7C2B6C1 /* [CP] Check Pods Manifest.lock */,
+				39AA1F21BCBD24E8D7C2B6C1 /* ShellScript */,
 				9D25AB9A213FB47800354C27 /* Headers */,
 				9D25AB98213FB47800354C27 /* Sources */,
 				9D25AB99213FB47800354C27 /* Frameworks */,
 				9D25AB9B213FB47800354C27 /* Resources */,
-				3340802D8B00772C75FE8179 /* [CP] Copy Pods Resources */,
+				3340802D8B00772C75FE8179 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -2143,7 +2143,7 @@
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
-			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2242,7 +2242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */,
+				5623C57D17FDCB0900090B9E,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2256,7 +2256,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3340802D8B00772C75FE8179 /* [CP] Copy Pods Resources */ = {
+		3340802D8B00772C75FE8179 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2276,7 +2276,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnityFramework/Pods-UnityFramework-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		39AA1F21BCBD24E8D7C2B6C1 /* [CP] Check Pods Manifest.lock */ = {
+		39AA1F21BCBD24E8D7C2B6C1 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2298,7 +2298,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5CA5A4E5CD666A54D07E956D /* AppLovinQualityService */ = {
+		5CA5A4E5CD666A54D07E956D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2317,7 +2317,7 @@
 			shellPath = /bin/sh;
 			shellScript = "AppLovinQualityService/AppLovinQualityServicePlugin.app/Contents/MacOS/AppLovinQualityServicePlugin \"AppLovinQualityServiceSetup.rb\"";
 		};
-		665763AB8EA4AC57B3472BAA /* AppLovinQualityService Updater */ = {
+		665763AB8EA4AC57B3472BAA /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -3166,7 +3166,7 @@
 		};
 		9D25ABA7213FB47800354C27 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 267B83E326B68B3AF4BFD444 /* Pods-UnityFramework.release.xcconfig */;
+			baseConfigurationReference = 267B83E326B68B3AF4BFD444;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
@@ -3249,7 +3249,7 @@
 		};
 		9D25ABA8213FB47800354C27 /* ReleaseForProfiling */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83610B9316968983199D6525 /* Pods-UnityFramework.releaseforprofiling.xcconfig */;
+			baseConfigurationReference = 83610B9316968983199D6525;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
@@ -3333,7 +3333,7 @@
 		};
 		9D25ABA9213FB47800354C27 /* ReleaseForRunning */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59198EABDE402C22695E15DB /* Pods-UnityFramework.releaseforrunning.xcconfig */;
+			baseConfigurationReference = 59198EABDE402C22695E15DB;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
@@ -3418,7 +3418,7 @@
 		};
 		9D25ABAA213FB47800354C27 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C308F5832CC48320B0FD7970 /* Pods-UnityFramework.debug.xcconfig */;
+			baseConfigurationReference = C308F5832CC48320B0FD7970;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = arm64;
